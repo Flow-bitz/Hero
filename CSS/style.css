@@ -1,0 +1,23 @@
+ h1{
+    text-align: center;
+    color: red;
+}
+
+h2{
+    background-color: rgb(164, 168, 29);
+    text-align: center;
+    color: #269;
+}
+
+body{
+    background-color: aqua;
+    color: rgb(49, 40, 34);
+    font-family: Arial;
+}
+
+.second {
+    color: green;
+    background-color: white;
+}
+
+/* This is a comment */

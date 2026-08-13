@@ -9,6 +9,10 @@ h2{
     color: #269;
 }
 
+h3{
+    text-align: center;
+}
+
 body{
     background-color: aqua;
     color: rgb(49, 40, 34);
@@ -17,7 +21,60 @@ body{
 
 .second {
     color: green;
+    
+}
+
+.two {
     background-color: white;
+}
+
+#head {
+    color:blueviolet;
+}
+
+div h2 {
+    color: white;
+    background-color: none;
+}
+
+div > p {
+    color: white;
+}
+
+p{
+    color: red;
+}
+
+div{
+    background-color:rgb(6, 215, 146);
+    padding: 5px;
+    border-radius: 25px;
+    margin: auto;
+}
+
+div button{
+    border-radius: 20px;
+}
+
+input[type="text"] {
+    border-color: #269;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+input[type="email"] {
+    border-color: red;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+input[type="password"] {
+    border-color: yellow;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 5px;
 }
 
 /* This is a comment */

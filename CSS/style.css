@@ -14,7 +14,12 @@ h3{
 }
 
 body{
-    background-color: aqua;
+    background-color: black;
+    background-image: url(../images/background2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
     color: rgb(49, 40, 34);
     font-family: Arial;
 }
@@ -77,4 +82,9 @@ input[type="password"] {
     margin: 5px;
 }
 
+img{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
 /* This is a comment */

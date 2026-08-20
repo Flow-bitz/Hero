@@ -88,3 +88,84 @@ img{
     height: 300px;
 }
 /* This is a comment */
+
+
+/* IMAGE OPACITY */
+
+img {
+    opacity: 0.4;
+    transition: 1s;
+}
+img:hover {
+    opacity: 1;
+}
+
+a {
+    color: rgb(44, 204, 44);
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+a:active{
+    color: yellow;
+}
+a:visited{
+    color: white;
+}
+
+/* CSS LIST */
+
+ul{
+    list-style-type: circle;
+    color: white;
+    list-style-position: inside;
+}
+
+ol{
+    list-style-type: lower-alpha;
+    color: white;
+    list-style-position: outside;
+}
+dl{
+    color: white;
+}
+
+/* CSS TABLES */
+
+table{
+    border-collapse: collapse;
+    border-radius: 20px;
+    width: 65%;
+    border: 2px solid black;
+}
+
+/* CSS POSITION */
+
+.box1{
+    position: relative;
+    top: 20px;
+    left: 30px;
+    width: 200px;
+    box-sizing: border-box;
+    opacity: 0.5;
+}
+
+.box2{
+    position: absolute;
+    top: 50px;
+    right: 100px;
+}
+
+.box3{
+    position: sticky;
+    top: 0;
+}
+
+.but{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;
+}
